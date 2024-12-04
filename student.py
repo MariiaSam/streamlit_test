@@ -7,7 +7,7 @@ import pandas as pd
 st.title('Демонстрація роботи з даними в Streamlit')
 
 # Завантаження даних
-df_data = pd.read_csv('Student_data.csv')
+df_data = pd.read_csv('Student_data (1).csv')
 
 # Вибір колонки для аналізу
 column = st.selectbox('Виберіть колонку для аналізу:', df_data.columns)
